@@ -1,0 +1,42 @@
+*{
+margin: 0px;
+padding:0px;
+}
+
+#mainBox{
+    width:"100%";
+   
+}
+
+.miniBox{
+    width: 20%;
+    border: 3px solid black ;
+    float: left;
+    padding: 5px;
+    margin: 10px;
+    display: inline-table;
+    text-align: center;
+    height: 10%;
+
+}
+.miniBox h2{
+    color: coral;
+    font-style: italic;
+    text-align: left !important;
+}
+@media(max-width:500px){
+    .miniBox{
+        width: 50%;
+        border: 3px solid black ;
+        float: left;
+        padding: 5px;
+        margin: 10px;
+        display: float;
+        text-align: center;
+        height: 10%;
+    
+    }
+    #mainBox{
+        margin: auto;
+    }
+}
